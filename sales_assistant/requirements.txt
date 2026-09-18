@@ -1,0 +1,20 @@
+# ─── Core LangGraph framework ─────────────────────────────────────────────────
+langgraph>=1.2.0
+
+# ─── SQLite conversation memory / checkpointing ───────────────────────────────
+langgraph-checkpoint-sqlite>=2.0.0
+
+# ─── LangChain core (messages, tools, prompts, runnables) ────────────────────
+langchain-core>=1.4.0
+
+# ─── LLM Provider (choose ONE; both are listed so you can switch easily) ──────
+
+# Option A — OpenAI GPT-4o-mini (default)
+langchain-openai>=0.3.0
+
+# Option B — Google Gemini (uncomment if using LLM_PROVIDER=google)
+# langchain-google-genai>=2.0.0
+
+# ─── Utilities ────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0       # loads .env file automatically
+pydantic>=2.7.0            # required by langgraph internals

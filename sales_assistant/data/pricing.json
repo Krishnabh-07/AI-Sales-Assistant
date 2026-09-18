@@ -1,0 +1,224 @@
+{
+  "currency": "USD",
+  "billing_note": "All prices are per user per month. Annual billing saves 20%. Prices exclude applicable taxes.",
+  "plans": {
+    "AutoFlow CRM": {
+      "starter": {
+        "price_per_user_monthly": 29,
+        "min_users": 1,
+        "max_users": 10,
+        "includes": [
+          "Core CRM features",
+          "Up to 5 automated workflows",
+          "10 native integrations",
+          "Email support (48h response)",
+          "14-day free trial"
+        ]
+      },
+      "professional": {
+        "price_per_user_monthly": 59,
+        "min_users": 5,
+        "max_users": 100,
+        "includes": [
+          "Everything in Starter",
+          "Unlimited automated workflows",
+          "All 50+ integrations",
+          "AI lead scoring",
+          "Custom reports and forecasting",
+          "Priority support (8h response)",
+          "14-day free trial"
+        ]
+      },
+      "enterprise": {
+        "price_per_user_monthly": 99,
+        "min_users": 20,
+        "max_users": 500,
+        "includes": [
+          "Everything in Professional",
+          "Custom integrations (via API)",
+          "Dedicated Customer Success Manager",
+          "SLA guarantee (99.9% uptime)",
+          "SSO / SAML",
+          "Advanced security controls",
+          "Custom onboarding",
+          "Phone support"
+        ]
+      }
+    },
+    "DataSync Analytics": {
+      "starter": {
+        "price_per_user_monthly": 49,
+        "min_users": 5,
+        "max_users": 20,
+        "includes": [
+          "Up to 5 dashboards",
+          "10 data connectors",
+          "Basic reports",
+          "Email support",
+          "14-day free trial"
+        ]
+      },
+      "professional": {
+        "price_per_user_monthly": 99,
+        "min_users": 10,
+        "max_users": 200,
+        "includes": [
+          "Unlimited dashboards",
+          "50+ data connectors",
+          "AI predictive analytics",
+          "Scheduled automated reports",
+          "Role-based access",
+          "Priority support",
+          "14-day free trial"
+        ]
+      },
+      "enterprise": {
+        "price_per_user_monthly": 199,
+        "min_users": 25,
+        "max_users": 1000,
+        "includes": [
+          "Everything in Professional",
+          "Custom data connectors",
+          "On-premise deployment option",
+          "Dedicated data engineer support",
+          "SLA + custom uptime guarantees",
+          "White-labeling option"
+        ]
+      }
+    },
+    "TaskBot Automation": {
+      "starter": {
+        "price_per_user_monthly": 19,
+        "min_users": 1,
+        "max_users": 10,
+        "includes": [
+          "Up to 10 active workflows",
+          "5,000 tasks per month",
+          "Basic integrations (100+)",
+          "Email support",
+          "14-day free trial"
+        ]
+      },
+      "professional": {
+        "price_per_user_monthly": 49,
+        "min_users": 3,
+        "max_users": 50,
+        "includes": [
+          "Unlimited active workflows",
+          "50,000 tasks per month",
+          "All 1,000+ integrations",
+          "Advanced conditional logic",
+          "Team collaboration",
+          "Priority support",
+          "14-day free trial"
+        ]
+      },
+      "enterprise": {
+        "price_per_user_monthly": 89,
+        "min_users": 10,
+        "max_users": 200,
+        "includes": [
+          "Everything in Professional",
+          "Unlimited tasks per month",
+          "Custom triggers and actions",
+          "Dedicated onboarding specialist",
+          "SLA + 99.9% uptime guarantee",
+          "Advanced security and audit logs"
+        ]
+      }
+    },
+    "SecureVault": {
+      "starter": {
+        "price_per_user_monthly": 39,
+        "min_users": 10,
+        "max_users": 50,
+        "includes": [
+          "AES-256 encryption",
+          "Basic access controls",
+          "Standard compliance reports (GDPR, SOC 2)",
+          "Email support",
+          "30-day free trial"
+        ]
+      },
+      "professional": {
+        "price_per_user_monthly": 79,
+        "min_users": 25,
+        "max_users": 500,
+        "includes": [
+          "Everything in Starter",
+          "Full RBAC + ABAC access controls",
+          "All compliance frameworks (GDPR, SOC 2, HIPAA, ISO 27001)",
+          "Real-time threat detection",
+          "SSO and MFA",
+          "Priority 24/7 support",
+          "30-day free trial"
+        ]
+      },
+      "enterprise": {
+        "price_per_user_monthly": 149,
+        "min_users": 50,
+        "max_users": 10000,
+        "includes": [
+          "Everything in Professional",
+          "Custom compliance policies",
+          "Dedicated security engineer",
+          "Custom SLA",
+          "On-premise or private cloud option",
+          "Annual penetration testing report"
+        ]
+      }
+    },
+    "HelpDesk Pro": {
+      "starter": {
+        "price_per_user_monthly": 25,
+        "min_users": 2,
+        "max_users": 10,
+        "includes": [
+          "Email + chat support channels",
+          "Basic ticket management",
+          "Knowledge base (up to 100 articles)",
+          "Email support (48h response)",
+          "14-day free trial"
+        ]
+      },
+      "professional": {
+        "price_per_user_monthly": 55,
+        "min_users": 5,
+        "max_users": 100,
+        "includes": [
+          "All support channels (email, chat, phone, social)",
+          "AI ticket routing and classification",
+          "Unlimited knowledge base articles",
+          "SLA management",
+          "CSAT surveys",
+          "CRM integrations",
+          "Priority support",
+          "14-day free trial"
+        ]
+      },
+      "enterprise": {
+        "price_per_user_monthly": 95,
+        "min_users": 15,
+        "max_users": 300,
+        "includes": [
+          "Everything in Professional",
+          "Custom workflows",
+          "Dedicated Customer Success Manager",
+          "Custom SLA",
+          "White-labeling",
+          "Advanced analytics and reporting",
+          "SSO and enterprise security"
+        ]
+      }
+    }
+  },
+  "discounts": {
+    "annual_billing_percent": 20,
+    "volume_tiers": [
+      { "min_users": 50, "discount_percent": 5, "label": "50+ users" },
+      { "min_users": 100, "discount_percent": 10, "label": "100+ users" },
+      { "min_users": 250, "discount_percent": 15, "label": "250+ users" }
+    ],
+    "special_discount_policy": "Special discounts beyond standard volume pricing require manager approval. Maximum approved discount is typically 20% on top of standard pricing."
+  }
+}

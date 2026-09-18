@@ -1,0 +1,39 @@
+# Environment — NEVER commit real API keys
+.env
+
+# SQLite memory database (auto-generated at runtime)
+data/memory.db
+
+# Captured leads (auto-generated; exclude from version control if privacy-sensitive)
+# data/leads.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Jupyter (if you add any notebooks)
+.ipynb_checkpoints/
+
+# Ignore private data
+data/leads.json

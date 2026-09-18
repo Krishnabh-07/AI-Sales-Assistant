@@ -1,0 +1,147 @@
+{
+  "company": "TechFlow Solutions",
+  "products": [
+    {
+      "id": "pro-001",
+      "name": "AutoFlow CRM",
+      "category": "CRM",
+      "tagline": "Sell smarter, not harder",
+      "description": "AI-powered CRM that automates lead scoring, follow-ups, and pipeline management so your sales team can focus on closing deals.",
+      "features": [
+        "AI lead scoring and prioritization",
+        "Automated email sequences",
+        "Visual pipeline management",
+        "Real-time analytics dashboard",
+        "50+ native integrations (Slack, Gmail, Outlook, HubSpot)",
+        "Mobile app (iOS & Android)",
+        "Custom reports & forecasting"
+      ],
+      "ideal_for": [
+        "Sales teams",
+        "B2B companies",
+        "Startups scaling their sales process",
+        "Account managers",
+        "Small and mid-sized businesses"
+      ],
+      "min_users": 1,
+      "max_users": 500,
+      "setup_time": "1-2 days",
+      "support": "Email + Chat (business hours)",
+      "free_trial_days": 14
+    },
+    {
+      "id": "pro-002",
+      "name": "DataSync Analytics",
+      "category": "Business Intelligence",
+      "tagline": "Turn your data into decisions",
+      "description": "Real-time business intelligence and data visualization platform. Connect your data sources, build dashboards, and get AI-powered insights in minutes.",
+      "features": [
+        "Real-time live dashboards",
+        "Drag-and-drop report builder",
+        "50+ data connectors (SQL, Salesforce, Google Analytics, etc.)",
+        "Predictive analytics with AI forecasting",
+        "Scheduled automated reports",
+        "Role-based access controls",
+        "Export to PDF, Excel, and Slack"
+      ],
+      "ideal_for": [
+        "Data & analytics teams",
+        "Business managers and executives",
+        "Marketing and operations",
+        "Companies with multiple data sources",
+        "Enterprise organizations"
+      ],
+      "min_users": 5,
+      "max_users": 1000,
+      "setup_time": "2-5 days",
+      "support": "Email + Chat + Dedicated onboarding",
+      "free_trial_days": 14
+    },
+    {
+      "id": "pro-003",
+      "name": "TaskBot Automation",
+      "category": "Workflow Automation",
+      "tagline": "Automate the boring, focus on what matters",
+      "description": "No-code workflow automation platform that connects your apps and automates repetitive tasks. Build powerful workflows with a simple drag-and-drop editor — no coding required.",
+      "features": [
+        "Visual no-code workflow builder",
+        "1,000+ app integrations",
+        "Trigger-based and scheduled automations",
+        "Conditional logic and branching",
+        "Error handling and retry mechanisms",
+        "Full audit logs",
+        "Team collaboration on workflows"
+      ],
+      "ideal_for": [
+        "Operations and admin teams",
+        "Non-technical business users",
+        "Small and medium businesses",
+        "HR, finance, and marketing teams",
+        "Companies wanting to reduce manual work"
+      ],
+      "min_users": 1,
+      "max_users": 200,
+      "setup_time": "Same day",
+      "support": "Email + Chat (business hours)",
+      "free_trial_days": 14
+    },
+    {
+      "id": "pro-004",
+      "name": "SecureVault",
+      "category": "Data Security & Compliance",
+      "tagline": "Enterprise security, zero compromise",
+      "description": "Comprehensive data security and compliance management platform. Protect sensitive business data with end-to-end encryption, granular access controls, and built-in compliance reporting for SOC 2, GDPR, and HIPAA.",
+      "features": [
+        "End-to-end AES-256 encryption",
+        "Role-based and attribute-based access controls",
+        "Compliance reporting (SOC 2, GDPR, HIPAA, ISO 27001)",
+        "Real-time threat detection and alerting",
+        "Data loss prevention (DLP) policies",
+        "24/7 security monitoring",
+        "Audit trails and forensic logs",
+        "Single Sign-On (SSO) and MFA"
+      ],
+      "ideal_for": [
+        "Enterprise organizations",
+        "Healthcare and life sciences",
+        "Financial services and fintech",
+        "Legal and professional services",
+        "Any company handling sensitive customer data"
+      ],
+      "min_users": 10,
+      "max_users": 10000,
+      "setup_time": "1-2 weeks (includes compliance audit)",
+      "support": "24/7 phone + email + dedicated CSM",
+      "free_trial_days": 30
+    },
+    {
+      "id": "pro-005",
+      "name": "HelpDesk Pro",
+      "category": "Customer Support",
+      "tagline": "Delight every customer, every time",
+      "description": "Multi-channel customer support platform with AI-powered ticket routing, a self-service knowledge base, and real-time SLA tracking. Help your team resolve issues faster and keep customers happy.",
+      "features": [
+        "Omnichannel support (email, chat, phone, social media)",
+        "AI ticket classification and routing",
+        "Self-service knowledge base",
+        "SLA management and breach alerts",
+        "Customer satisfaction (CSAT) surveys",
+        "Canned responses and macros",
+        "Team performance analytics",
+        "Integration with CRMs (Salesforce, AutoFlow CRM)"
+      ],
+      "ideal_for": [
+        "Customer support teams",
+        "E-commerce and retail",
+        "SaaS companies",
+        "Any business with high customer inquiry volume",
+        "Companies wanting to reduce support costs"
+      ],
+      "min_users": 2,
+      "max_users": 300,
+      "setup_time": "1-3 days",
+      "support": "Email + Chat + Priority phone (business hours)",
+      "free_trial_days": 14
+    }
+  ]
+}
